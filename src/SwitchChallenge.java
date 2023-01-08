@@ -2,6 +2,7 @@ public class SwitchChallenge {
     public static void main(String[] args) {
         getSwitch('G');
 //        System.out.println(getSwitch('A'));
+        printDayOfWeek(3);
     }
 
     public static void getSwitch(char x) {
@@ -25,4 +26,19 @@ public class SwitchChallenge {
 //            default -> "Oops! Not Found!";
 //        };
 //    }
+
+    public static void printDayOfWeek(int day) {
+        String dayOfWeek = switch (day) {
+            case 0 -> "Sunday";
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            default -> "Invalid Day!";
+        };
+
+        System.out.println(day + " Stands for " + dayOfWeek);
+    }
 }
