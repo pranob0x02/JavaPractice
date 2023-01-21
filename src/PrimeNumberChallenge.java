@@ -2,10 +2,20 @@ import java.lang.Math;
 
 public class PrimeNumberChallenge {
     public static void main(String[] args) {
+        int primeNumber = 0;
+        for (int i = 1; i <= 100; i++) {
+            if (isPrime(i)) {
+                primeNumber++;
+            }
+        }
 
-        System.out.println(isPrime(2));
-        System.out.println(isPrime(7));
-        System.out.println(isPrime(33));
+
+        System.out.println("Total Prime Number: " + primeNumber);
+
+
+//        System.out.println(isPrime(2));
+//        System.out.println(isPrime(7));
+//        System.out.println(isPrime(33));
 
 
     }
@@ -42,6 +52,7 @@ public class PrimeNumberChallenge {
             }
         }
         return true;
+
     }
 }
 
