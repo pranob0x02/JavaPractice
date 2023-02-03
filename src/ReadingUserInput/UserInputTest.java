@@ -10,7 +10,7 @@ public class UserInputTest {
             System.out.println(getInputFromConsole(currentYear));
         } catch (NullPointerException e) {
             System.out.println(getInputFromScanner(currentYear));
-//            System.out.println("oops!");
+//            System.out.println(e + " occurred! What did you do?");
         }
 
 //        System.out.println(getInputFromConsole(20));
