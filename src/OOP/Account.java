@@ -29,6 +29,12 @@ public class Account {
         System.out.println("constructor with parameters.");
     }
 
+    public Account(String customerName, String customerEmail, String customerPhone) {
+        this("99999", 100, customerName, customerEmail, customerPhone);
+//        this.customerName = customerName;
+//        this.customerEmail = customerEmail;
+//        this.customerPhone = customerPhone;
+    }
 
     public void depositFunds(double depositAmount) {
         balance = balance + depositAmount;

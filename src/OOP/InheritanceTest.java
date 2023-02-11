@@ -13,5 +13,9 @@ public class InheritanceTest {
         Account myAccount = new Account("123456789", 500, "Pranob", "pranob@gmail.com", "54290842");
         //constructor with parameter
 
+        Account myAnotherTestAccount = new Account("Mihir", "mihir@gmail.com", "+8801817720109");
+
+        //Consturctor overloadingTest
+        System.out.println(myAnotherTestAccount.getBalance());
     }
 }
