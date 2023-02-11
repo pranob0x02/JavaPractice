@@ -6,6 +6,9 @@ public class Customer {
     private double creditLimit;
     private String email;
 
+    // static variable test
+//    static String testVar = "test";
+
     //  getterMethod
 
     public String getName() {

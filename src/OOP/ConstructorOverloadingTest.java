@@ -11,5 +11,10 @@ public class ConstructorOverloadingTest {
 
         Customer test3 = new Customer("Mihir", "mihir@gmail.com");
         System.out.println(test3.getEmail() + " " + test3.getName() + " " + test3.getCreditLimit());
+
+        // An instance isn't required to exist,
+        // to access the value of a static variable
+
+//        System.out.println(Customer.testVar);
     }
 }
