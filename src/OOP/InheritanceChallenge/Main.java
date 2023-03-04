@@ -20,5 +20,8 @@ public class Main {
         System.out.println(mary.getAge());
         System.out.println("Paycheck = " + mary.collectPay());
         System.out.println("Holiday pay = " + mary.getDoublePay());
+
+//        Rectangle test = new Rectangle();
+//        System.out.println(test);
     }
 }

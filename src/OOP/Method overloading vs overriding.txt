@@ -1,0 +1,15 @@
+-> Method overloading means providing two ro more separate methods, in a class
+   with the same name but different parameters.
+
+   we can overload static or instance methods.
+   - often referred as compile-time polymorphism.
+
+
+-> Method overriding means defining a method in a child class, that already exists in the parent class,
+   with the same signature (same name, same arguments).
+
+   - this is known as Runtime polymorphism or Dynamic Method dispatch,
+     because the method that is going to be called, is decided at runtime, by the java virtual machine.
+
+   - when we override a method, it's recommended to put @override, immediately above the method definition.
+   - we can't override static methods, only instance methods can be overridden.
