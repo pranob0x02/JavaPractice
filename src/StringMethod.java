@@ -13,6 +13,8 @@ public class StringMethod {
         String newDate = String.join("/", "30", "03", "1998");
         System.out.println(newDate);
 
+        System.out.println(newDate.replace("/", "-"));
+
 
     }
 
