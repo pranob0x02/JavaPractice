@@ -14,11 +14,11 @@ public class TestComputer {
 
         PersonalComputer thePc = new PersonalComputer("2008", "Dell", theCase, theMonitor, theMotherBoard);
 
+//        thePc.drawPixelAt(10, 10, "red");
+//        thePc.getMotherBoard().loadProgram("Windows OS");
+//        thePc.getComputerCase().pressPowerButton();
+
         thePc.powerUp();
-
-
-
-
     }
 
 }
