@@ -15,7 +15,7 @@ public class Printer {
 //            this.tonerLevel = tonerLevel;
 //        }
 
-        this.tonerLevel = (tonerLevel > -1 && tonerLevel <= 100) ? tonerLevel : -1;
+        this.tonerLevel = (tonerLevel >= 0 && tonerLevel <= 100) ? tonerLevel : -1;
         this.duplex = duplex;
         this.pagesPrinted = 0;
     }
