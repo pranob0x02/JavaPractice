@@ -17,6 +17,11 @@ public class ScienceFiction extends Movie{
     }
 
 
+    public void watchScienceFiction(){
+        System.out.println("Watching a Science-Fiction movie.......!");
+    }
+
+
 
 
 

@@ -6,6 +6,15 @@ public class TestMovie {
 
     public static void main(String[] args) {
 
+        /*
+        * The ability to execute different behavior, for different types, which are determined at runtime.
+        *
+        *   Movie movie = Movie.getMovie(type, title);
+        *   movie.watchMovie();
+        *
+        * */
+
+
 ////        Movie movie = new Movie("StarWars");
 ////        movie.watchMovie();
 //

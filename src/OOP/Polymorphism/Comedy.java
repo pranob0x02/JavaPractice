@@ -16,4 +16,8 @@ public class Comedy extends Movie{
     }
 
 
+    public void watchComedy(){
+        System.out.println("Watching a Comedy movie.......!");
+    }
+
 }
